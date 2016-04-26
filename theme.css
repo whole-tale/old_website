@@ -1,0 +1,90 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+body{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+			
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+	background-color: green;
+}
+
+.title-page{
+	background:url("images/science-bg.jpg") no-repeat center;
+	height:350px;
+	padding-top: 60px;
+}
+			
+.navbar-header a{
+	padding-top:8px;
+}
+
+.navbar-bottom{
+	margin-bottom: 0px;
+}
+			
+.logo{
+	height: 45px;
+	margin-top: -5px;
+}
+				
+.approach{
+	background-color: "#252525";
+}
+				
+#involved .panel-body{
+	height:230px;
+}
+
+.social-link{
+	font-size: 26px;
+}
+				
+.social-button{
+	padding-right: 5px;
+}
+			
+h1 {
+	font-size:36px;
+}
+				
+h2{
+	font-size: 30px;
+}
+				
+.page-header{
+	border: 0px;
+	text-align: center;
+}
+				
+.involve-body h4{
+	margin-top: 21px;
+}
+
+.involve-button{
+	margin-top:13px;
+}
