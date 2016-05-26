@@ -55,7 +55,7 @@ body {
 			
 .logo{
   height: 30px;
-  margin-top: 0px;
+  margin-top: 6px;
 }
 
 
@@ -115,7 +115,7 @@ body {
 }
 				
 #involved .panel-body {
-	height:230px;
+  height: auto;
 }
 
 .social-link{
@@ -141,6 +141,12 @@ body {
  */
 
 @media (min-width: 768px) {
+  .logo{
+    margin-top: 0px;
+  }
+  #involved .panel-body {
+    height: 250px;
+  }
   .title-page {
     background: #00517d url("images/whole_tale_banner_enhanced.png") no-repeat top center;  
     background-size: cover; 
