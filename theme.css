@@ -93,11 +93,83 @@ body {
   margin: 10px auto;
   display: block;
 }
-		
+	
+
+/*
+ * Small banner image
+ */
+
+.title-page-sm {
+  background-color: #00517d;
+  color: #abcfea;
+  padding: 30px 0;
+}
+.title-page-sm {
+  background: #00517d url("images/whole_tale_banner_simple.png") no-repeat center center;  
+  background-size: cover; 
+}
+.title-page-sm h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+	
 
 /*
  * Misc
  */
+
+
+h4 {
+  line-height: 1.2em;
+}
+
+ul.no-indent {
+  margin: 0;
+  padding-left: 15px;
+}
+
+ul.plain {
+  list-style-type: none;
+  padding-left: 30px;
+}
+ul.plain li {
+  padding: 2px 0;
+  text-indent: -20px;
+}
+
+.alert-red {
+  color: #9f1413;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+.caption {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.well {  /* Override template gray well style - ked */
+  border: none;
+  border-top: solid 3px #d8d6d3;
+  background: #f7f6f5;
+  box-shadow: none; 
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin: 20px 0;
+}
+
+.well h3 {
+  margin-top: 0;
+}
+
+.return-link {
+  text-align: right;
+}
 
 .btn-circle {
 	width: 30px;
@@ -111,7 +183,6 @@ body {
 }
 			
 .approach{
-	background-color: "#252525";
 }
 				
 #involved .panel-body {
@@ -128,13 +199,18 @@ body {
 			
 				
 .involve-body h4{
-	margin-top: 21px;
+  text-align: center;
+  line-height: 1.3em;
 }
 
 .involve-button{
 	margin-top:13px;
 }
 
+.side-logo img {
+   width: 200px;
+   margin: 0 auto;
+}
 
 /*
  * Responsive styles
@@ -167,12 +243,21 @@ body {
   .title-page .text-center {
     text-align: center;    
   }
+  #involved .panel-body {
+    height: 220px;
+  }
 }
 
 @media (min-width: 1200px) {
   .title-page {
     padding-top: 8%;
     padding-bottom: 8%;
+  }
+  #involved .panel-body {
+    height: 200px;
+  }
+  .side-logo img {
+   width: 300px;
   }
 }
 
