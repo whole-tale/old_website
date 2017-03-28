@@ -237,6 +237,10 @@ hr {
   .title-page img.wt-logo-ph {
     display: none;
   }
+  .intern-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media (min-width: 992px) {
