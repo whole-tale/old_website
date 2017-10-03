@@ -1,0 +1,64 @@
+The Whole Tale
+
+Merging Science and Cyberinfrastructure Pathways
+
+Whole Tale is a system which enables data providers, application
+developers, and researchers to merge their expertises to simplify the
+complex world of modern data research. Anyone can register data in
+whole tale, be that a full repository or simply data from your lab or
+laptop.  Anyone can use applications in the system to work with data
+to produce outcomes in a collaborative environment. Anyone
+can publish the tale of how data were converted to knowledge
+and associate that tale with the reseach articles to which they lead. As
+a result, these "living articles" enable future discovery of past
+results and extending them with new data or applications.
+
+<Learn href=about.txt> About Whole Tale
+
+<Explore href=dashboard> With Whole Tale
+
+<Data href=datacatalog> In Whole Tale
+
+<Develop href=develop.txt> With Whole Tale
+
+<Events href=events.txt> Using Whole Tale
+
+<Feedback href=github_issues_tracking?> To Whole Tale
+
+<div>
+
+<News Bannor...Interns, plug new features...>
+
+How Whole Tale Simplifies Research
+
+<Unified Storage Layers>
+Data from multiple sources 
+easily imported into a sharable
+environment
+
+<Bring Your Own Account>
+Unified user system using 
+your institutions CILogin
+or OrcID accounts.
+
+<Interactive Applications>
+Now featuring Jupyter and 
+RStudio environments for
+computing and visualizing data
+
+<Data Dashboard>
+Manage your data, applications
+and collaboration on multiple 
+datasets through a single dashboard
+
+<Other Tales>
+Teach or Learn from or use other
+tales already in the system
+
+<Living Publications>
+Provide more than just data
+and code, publish the Whole
+Tale with the Whole Tale.
+
+<NASCAR of logos> <Git Hub Logo>
+

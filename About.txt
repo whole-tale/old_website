@@ -1,0 +1,13 @@
+About the Whole Tale
+
+Paragraph here about which button to push
+
+<For Users>
+
+<For Developers>
+
+Using Whole Tale
+
+
+
+Developing in Whole Tale
