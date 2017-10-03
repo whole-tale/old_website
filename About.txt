@@ -2,12 +2,46 @@ About the Whole Tale
 
 Paragraph here about which button to push
 
-<For Users>
+As a <User>, whole tale is a simplified environment to help organize
+working with data by managing the data and exploration environments in
+one dashboard. 
 
-<For Developers>
+As a <Developer>, whole tale provides an infrastructure where 
+containerized applications, workflows, and interactive environments
+can be deployed and easily linked to any data that is registered in the 
+system.
+
+(maybe do this as two columns and no click to goto buttons?)
+
+<Information for Users>
+
+<Information for Developers>
 
 Using Whole Tale
 
+(Do a walkthrough of logging in, finding a tale, and running it)
 
+(Do a second walkthrough once logged in of importing data to a workspace
+and then sending that into a new applications to make a new tale)
 
 Developing in Whole Tale
+
+Applications in Whole Tale run within Docker containers. If your application
+can be implemented in a Docker Container, it can be run within Whole Tale. 
+
+(Need any details about the stock dockerfile needed to access the 
+data directories)
+
+The framework for Whole Talke is constructed as such...
+
+(Diagram showing the tech stack we use)
+
+All data are exposed to the containers through a FUSE based file system. 
+With this system, files are not downloaded into the system until first accessed.
+Applications will wait for this transfer to begin. 
+
+All of the software components are hosted in GitHub repo at...
+
+The system is fully API driven. These APIs are exposed as...Thus
+external systems can publish data or compute on data using WholeTale 
+in a fully API (non interactive) fashion.
